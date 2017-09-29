@@ -1,16 +1,9 @@
 #include "main.h"
 
-#include <memory>
+#include "main_window.h"
 
 #include "wx/wx.h"
 
-class CMainWindow : public wxFrame
-{
-public:
-    CMainWindow() : wxFrame(NULL, wxID_ANY, "Siberia"){
-
-    }
-};
 
 
 class CGuiApp : public wxApp
