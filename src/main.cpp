@@ -4,12 +4,10 @@
 
 #include "wx/wx.h"
 
-
-
 class CGuiApp : public wxApp
 {
 private:
-    virtual bool OnInit(){
+    virtual bool OnInit() override{
         if ( !wxApp::OnInit() ) {
             return false;
         }

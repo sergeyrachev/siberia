@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 project(siberia)
-
+set(CMAKE_CXX_STANDARD 17)
 find_package( wxWidgets CONFIG PATHS deps )
 
 add_executable(siberia WIN32
