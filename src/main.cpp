@@ -12,7 +12,7 @@ private:
             return false;
         }
 
-        auto main_window = new CMainWindow;
+        auto main_window = new CMainWindow();
         return main_window->Show();
     }
 };
