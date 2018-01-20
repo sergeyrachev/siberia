@@ -7,7 +7,7 @@
 class CGuiApp : public wxApp
 {
 private:
-    virtual bool OnInit() override{
+    bool OnInit() override {
         if ( !wxApp::OnInit() ) {
             return false;
         }
@@ -17,4 +17,4 @@ private:
     }
 };
 
-IMPLEMENT_APP(CGuiApp)
+wxIMPLEMENT_APP(CGuiApp);
